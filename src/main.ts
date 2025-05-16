@@ -27,6 +27,9 @@ import {
   faBowlFood,
   faAngleDown,
   faAngleUp,
+  faUser,
+  faEnvelope,
+  faPhone,
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
   faLocationDot,
@@ -46,6 +49,9 @@ library.add(
   faBowlFood,
   faAngleDown,
   faAngleUp,
+  faUser,
+  faEnvelope,
+  faPhone,
 )
 
 const app = createApp(App).component('font-awesome-icon', FontAwesomeIcon)

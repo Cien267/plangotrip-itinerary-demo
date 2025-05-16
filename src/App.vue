@@ -6,6 +6,8 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="header">
     <div class="logo">PLAN GO TRIP</div>
     <div class="menu">
+      <RouterLink to="/rAF">rAF</RouterLink>
+      <RouterLink to="/3000-oxford-words">3000 Oxford Words</RouterLink>
       <RouterLink to="/scss">Plan</RouterLink>
     </div>
   </div>

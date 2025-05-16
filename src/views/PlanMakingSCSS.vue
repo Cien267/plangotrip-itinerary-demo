@@ -232,7 +232,7 @@ const showTips = ref(false)
       }
     }
     & .itinerary-detail {
-      padding: 10px;
+      padding: 20px;
       & .common-detail-info {
         display: flex;
         align-items: center;
@@ -296,7 +296,7 @@ const showTips = ref(false)
       flex-direction: column;
       flex: 0 calc(60% - 20px);
       gap: 20px;
-      padding: 10px;
+      padding: 20px;
       border-radius: 10px;
       box-shadow:
         rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
@@ -432,7 +432,7 @@ const showTips = ref(false)
     }
     & .itinerary-compilation {
       flex: 0 calc(40% - 20px);
-      padding: 10px;
+      padding: 20px;
       border-radius: 10px;
       box-shadow:
         rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
