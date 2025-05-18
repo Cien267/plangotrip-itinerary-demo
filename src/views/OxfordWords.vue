@@ -67,7 +67,10 @@ const handleCrawlDataOxford = async () => {
       if (e.status === 429) break
       else errorWordList.value.push(difference[i])
     }
-    window.scrollTo(0, document.body.scrollHeight)
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: 'smooth',
+    })
   }
   console.log('======= DATA COLLECTED =======', result.value)
   console.log('======= DATA ERROR =======', errorWordList.value)
